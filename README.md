@@ -20,7 +20,7 @@ This is a solid foundation for the project but now we’re looking for someone w
 
 The goal of this test is to provide a solution to synchronize several clients and “start something” at the exact same time.
 
-Compute latency between clients and server with your own logic and network protocol. Use it to synchronize the execution of an action on all connected clients. This action can be juste a flash on client's screen. The most important thing is to have all clients running this flash at the same time.
+Compute latency between clients and server with your own logic and network protocol. Use it to synchronize the execution of an action on all connected clients. This action can be just a flash on clients' screen. The most important thing is to have all clients running this flash at the same time.
 
 ## Constraints
 
