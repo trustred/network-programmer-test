@@ -16,7 +16,7 @@ For **Stories One**, we developed a networking stack to run the game on multiple
 
 This is a solid foundation for the project but now we’re looking for someone who will help us to go to the next step for our ambitions, to deliver a smooth game and social experience to millions of players.
 
-## Objectif
+## Objective
 
 The goal of this test is to provide a solution to synchronize several clients and “start something” at the exact same time.
 
