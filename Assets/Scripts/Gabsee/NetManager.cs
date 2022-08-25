@@ -13,7 +13,8 @@ namespace Gabsee
         /// </summary>
         public Action<IPEndPoint, SocketError> OnNetworkError
         {
-            set { m_netManager.OnNetworkErrorCallback = value; }
+            get =>  m_netManager.OnNetworkErrorCallback; 
+            set => m_netManager.OnNetworkErrorCallback = value;
         }
 
         /// <summary>
@@ -21,7 +22,8 @@ namespace Gabsee
         /// </summary>
         public Action<IPEndPoint, byte[]> OnNetworkReceive
         {
-            set { m_netManager.OnNetworkReceiveCallback = value; }
+            get => m_netManager.OnNetworkReceiveCallback; 
+            set => m_netManager.OnNetworkReceiveCallback = value; 
         }
 
         /// <summary>
@@ -29,7 +31,8 @@ namespace Gabsee
         /// </summary>
         public Action<IPEndPoint> OnConnection
         {
-            set { m_netManager.OnConnectionCallback = value; }
+            get => m_netManager.OnConnectionCallback; 
+            set => m_netManager.OnConnectionCallback = value; 
         }
 
         /// <summary>
@@ -37,7 +40,8 @@ namespace Gabsee
         /// </summary>
         public Action<IPEndPoint> OnDisconnection
         {
-            set { m_netManager.OnDisconnectionCallback = value; }
+            get => m_netManager.OnDisconnectionCallback; 
+            set => m_netManager.OnDisconnectionCallback = value; 
         } 
 
         /// <summary>
